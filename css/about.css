@@ -1,0 +1,137 @@
+
+* { box-sizing: border-box; 
+	margin: 0;
+	padding :0;
+
+}
+
+body {
+	background: url("../img/pic3.jpg");
+	padding-top: 60px;
+	color: #34495e;	background-color: red;
+}
+
+/*navigation bar*/
+.nav {
+	position: fixed;
+  width: 100%;
+  top:0;
+  height:50px;
+  left:0;
+  background-color: #000; 
+  z-index: 1; 
+}
+
+/*home button*/
+#home { 
+	position: relative; 
+	top:4px;
+	height:40px; 
+	left:40px;
+	padding:1px 20px ; 
+	text-decoration: none;
+}
+
+
+.nav ul {
+/* 	position: relative; */
+	float:right;
+	padding-right:40px; 
+}
+
+.nav ul li {
+	display: inline-block;
+	padding: 10px ;  
+}
+
+.nav ul li a {
+  color:#8bacce; 
+  text-transform: uppercase; 
+  letter-spacing: 0.05em; 
+  text-decoration: none; 
+  padding:10px ; 
+}
+
+/*hover effect on nav bar*/
+.nav a:hover , #home:hover  { 
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms; 
+	background-color:#9bb3db;
+	font-weight: bold;
+	color:	#6f2874;
+}
+
+
+	/*main heading*/
+#header h1 {
+	margin: 40px;
+	text-align: center;
+	font-size: 30px; color: red;
+}
+
+#pic1 {
+	width:100%;
+}
+
+
+#para1 {
+	/*margin:0 10px 40px 10px;*/
+	padding:0 30px 10px 60px ;  
+	/*width:30%;*/ 
+}
+
+#para2 {
+	/*margin:0 10px 40px 10px;*/
+	padding:0 10px 10px 60px ;  
+	/*width:30%; */
+}
+
+#para3 {
+	padding: 20px 30px 20px 30px;
+}
+
+#pic4 {
+/*	position: relative;
+	left:100px;
+	top:50px;*/
+	padding:50px;
+}
+
+#pic5 {
+	position: relative;
+	margin-bottom: 100px;
+	width:50%;
+	top:20px;
+	left:100px;
+}
+
+
+
+
+
+
+/*Typography*/
+
+#home {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	font-size:30px;
+	color: 	#3182bd;
+}
+
+
+p , 
+li {
+	font-family: 'Shadows Into Light', cursive;
+	font-size:20px;
+	color:	#2e406f;
+}
+
+h1 ,
+h2 ,
+h3 {
+	font-size: 28px;
+	font-family: Papyrus,fantasy; 
+}
+

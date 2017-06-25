@@ -1,0 +1,284 @@
+* { box-sizing: border-box; 
+	margin: 0;
+	padding :0;
+}
+
+body{
+	padding-top: 53px;
+	color: #34495e;	
+	font-size:10px;
+	position: relative; 
+}
+
+
+/*nav bar styles*/
+.navbar>.container-fluid .navbar-brand{
+  margin-left: 15px;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover{
+  color:	#f4b408	;
+  background-color: transparent;  
+}
+
+#nav1{
+	padding-right: 40px; 
+}
+
+.navbar-inverse .navbar-brand{
+	color: 	#b3b3b3;
+	font-size: 3em; 
+}
+
+
+/*carousel styles*/
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0; 
+}
+
+.carousel{
+  margin-top:-10px; 
+}
+
+
+/*glyphicon properties*/
+.glyphicon:hover{
+	color: #3f3f3f;
+}
+
+.glyphicon{
+  display: inline-block; 
+}
+
+
+/******** About styling*****/
+.main-area1{
+	background-color: #f4b408; 
+	height: 100em;
+}
+
+.deco3{
+	position: relative;
+	width: 10%;
+	left: 53em;
+}
+#line1{
+	border-top: 1px solid #7c7676;
+}
+.about-section1{
+	padding-top: 5em; 
+}
+#about-img{
+	border-radius: 500em;
+	width: 100%;
+}
+.img-responsive{
+ 	width:100%; 
+ }
+.about-section2{
+	margin: auto;
+	padding: 0 5em 5em 10em;
+}
+.list{
+	list-style-type: none;
+}
+
+.glyphicon-pushpin:hover{
+	color: #f4b408;
+}
+
+
+
+/******* contact me styling*******************************/
+#details{
+	background:url("../img/c6.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100em;
+}
+
+/*contact details section 1*****************/
+.deco2{
+	position: relative;
+	width: 10%;
+	left: 53em;
+	top: -4em;
+}
+#line2{
+	border-top: 1px solid #333333;
+}
+.conact-section1{
+	padding: 4em; 
+}
+
+/*contact me contact form*/
+.contact-form{
+	
+
+}
+/*google maps*/
+#map {
+	height: 15em;
+  width: 50%;
+  padding-left: 35em;
+}
+
+/*contact details */
+#address-section{
+	width: 50%;
+	padding: 10.5em 0 0 10em; 
+}
+#address{
+	padding : 2em; 
+}
+
+
+
+
+
+/*main area2 section styles*/
+.main-area2{
+	position: relative;
+	background:url("../img/c9.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100em;
+}
+.deco1{
+	position: absolute;
+	width:5%;
+	left: 95em;
+	top: 0;
+
+}
+
+
+
+/*faq panel styles*/
+.faq-section{
+	background:url("../img/c7.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.faq-container{
+	width: 60%;
+	margin: auto;
+	padding: 5em;
+	height: 100em; 
+}
+
+.panel-default>.panel-heading{
+	background-color:#C7DFED; 
+	color:#000;
+}
+
+.panel-collapse{
+	font-size:1.3em;
+	color: #000;
+}
+
+#panel-color{
+	color:	#4b2f65;
+}
+
+.panel-title{
+	color:#41676d;
+}
+
+#last-faq{
+	margin-bottom: 150px;
+}
+
+
+
+
+
+/*Typography*/
+#about-me{
+	font-size: 6vw;
+	font-weight: bold;
+}
+#about-desc{
+	font-size: 3em;
+}
+.heading{
+	font-size: 7em;
+}
+.sub-heading{
+	font-size: 4em;
+}
+.list{
+	font-size: 1em;
+}
+.light-font{
+	color: #f4b408;
+}
+.contact-form {
+  font-size: 2em;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p,
+li{
+	font-size: 2.5em;  
+	font-family: 'Abel', sans-serif;
+
+}
+
+
+
+
+
+/*media queries*/
+@media (min-width: 500px){
+
+	.navbar-right{
+		margin-right: 80px; 
+	}
+
+	#video{
+		padding:80px; 
+	}
+
+}
+
+
+@media (max-width: 500px){
+
+#modalembed{
+  	height: 500px;
+  	width: 100%;
+	}
+
+.modal-button{
+  float: right;
+  padding: 15px;
+  margin-top: 40px; background-color: green;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
